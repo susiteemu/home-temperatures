@@ -1,0 +1,19 @@
+@startuml "plan"
+!pragma layout smetana
+skinparam componentStyle rectangle
+
+node RPi4 as srv {
+    interface "bt-receiver" as bt
+    component "ruuvitag-sensor" as rs
+    component influxdb as db
+}
+component ruuvitag_1 as r1
+component ruuvitag_2 as r2
+component ruuvitag_n as r3
+
+r1 ..> bt : send
+r2 ..> bt : send
+r3 ..> bt : send
+bt - rs : read
+rs --> db : post
+@enduml

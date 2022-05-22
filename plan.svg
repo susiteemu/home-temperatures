@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="262px" preserveAspectRatio="none" style="width:376px;height:262px;background:#FFFFFF;" version="1.1" viewBox="0 0 376 262" width="376px" zoomAndPan="magnify"><defs><filter height="300%" id="fyrm918ja7n54" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[60458ea4c7e04341e5153d3bb1b8580b]
+cluster srv--><polygon fill="#FFFFFF" filter="url(#fyrm918ja7n54)" points="147.5,100.4883,157.5,90.4883,359.5,90.4883,359.5,245.4883,349.5,255.4883,147.5,255.4883,147.5,100.4883" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="349.5" x2="359.5" y1="100.4883" y2="90.4883"/><line style="stroke:#000000;stroke-width:1.5;" x1="147.5" x2="349.5" y1="100.4883" y2="100.4883"/><line style="stroke:#000000;stroke-width:1.5;" x1="349.5" x2="349.5" y1="100.4883" y2="255.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="33" x="233" y="117.0234">RPi4</text><!--MD5=[97bded9ea8416bc4240d1ecd7eca0282]
+entity r1--><rect fill="#FEFECE" filter="url(#fyrm918ja7n54)" height="36.4883" style="stroke:#000000;stroke-width:1.5;" width="93" x="7" y="11.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="17" y="35.0234">ruuvitag_1</text><!--MD5=[2d034b0875f5e28a2e66ba2265252e77]
+entity r2--><rect fill="#FEFECE" filter="url(#fyrm918ja7n54)" height="36.4883" style="stroke:#000000;stroke-width:1.5;" width="93" x="118" y="11.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="128" y="35.0234">ruuvitag_2</text><!--MD5=[d236c9e80d6be685e6fcea00aa55c743]
+entity r3--><rect fill="#FEFECE" filter="url(#fyrm918ja7n54)" height="36.4883" style="stroke:#000000;stroke-width:1.5;" width="93" x="229" y="11.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="239" y="35.0234">ruuvitag_n</text><!--MD5=[c221bf1901a09b7c883f0ff65f80c2a9]
+entity bt--><ellipse cx="164.5" cy="137.4883" fill="#FEFECE" filter="url(#fyrm918ja7n54)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="126.5" y="168.0234">bt-receiver</text><!--MD5=[66e222155ae022dabc8e2dbd30d40993]
+entity rs--><rect fill="#FEFECE" filter="url(#fyrm918ja7n54)" height="36.4883" style="stroke:#000000;stroke-width:1.5;" width="131" x="220" y="122.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="230" y="146.0234">ruuvitag-sensor</text><!--MD5=[7468467f3b6b392f1d176d828c753b77]
+entity db--><rect fill="#FEFECE" filter="url(#fyrm918ja7n54)" height="36.4883" style="stroke:#000000;stroke-width:1.5;" width="78" x="246.5" y="211.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="256.5" y="235.0234">influxdb</text><path d="M70.8438,47.5195 C94.7456,70.9907 136.9473,112.432 155.4164,130.5684 " fill="none" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="155.4164,130.5684,151.7975,121.4085,151.8489,127.0651,146.1923,127.1165,155.4164,130.5684" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="30" x="107.5" y="79.0566">send</text><path d="M164.5,47.5195 C164.5,70.0327 164.5,109.079 164.5,128.2339 " fill="none" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="164.5,128.2339,168.5,119.2339,164.5,123.2339,160.5,119.2339,164.5,128.2339" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="30" x="165.5" y="79.0566">send</text><path d="M256.1066,47.726 C243.0048,59.5318 225.4398,75.6736 210.5,90.4883 C197.4093,103.4694 182.9551,119.092 173.807,129.1508 " fill="none" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="173.807,129.1508,182.8216,125.1839,177.1711,125.4518,176.9032,119.8013,173.807,129.1508" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="30" x="236.5" y="79.0566">send</text><path d="M173.5947,140.4883 C183.8723,140.4883 201.5702,140.4883 219.8971,140.4883 " fill="none" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="27" x="183.25" y="134.0566">read</text><path d="M285.5,158.6767 C285.5,173.929 285.5,196.0941 285.5,211.3356 " fill="none" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="285.5,211.3356,289.5,202.3356,285.5,206.3356,281.5,202.3356,285.5,211.3356" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="286.5" y="190.0566">post</text><!--MD5=[21ab5927ebc987a9e74ec9300551bafd]
+@startuml "plan"
+!pragma layout smetana
+skinparam componentStyle rectangle
+
+node RPi4 as srv {
+    interface "bt-receiver" as bt
+    component "ruuvitag-sensor" as rs
+    component influxdb as db
+}
+component ruuvitag_1 as r1
+component ruuvitag_2 as r2
+component ruuvitag_n as r3
+
+r1 ..> bt : send
+r2 ..> bt : send
+r3 ..> bt : send
+bt - rs : read
+rs - -> db : post
+@enduml
+
+PlantUML version 1.2022.0(Tue Jan 11 18:16:42 EET 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: FI
+--></g></svg>
